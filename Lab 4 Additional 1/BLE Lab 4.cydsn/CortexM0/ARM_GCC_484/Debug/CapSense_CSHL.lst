@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
   55 0001 01       		.byte	1
   56              		.comm	CapSense_fingerThreshold,1,4
   57              		.comm	CapSense_noiseThreshold,1,4
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 2
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 2
 
 
   58              		.comm	CapSense_negativeNoiseThreshold,1,4
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
   21:.\Generated_Source\PSoC4/CapSense_CSHL.c **** /* SmartSense functions */
   22:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #if (CapSense_TUNING_METHOD == CapSense__TUNING_AUTO)
   23:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     extern void CapSense_UpdateThresholds(uint32 sensor);
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 3
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 3
 
 
   24:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #endif /* (CapSense_TUNING_METHOD == CapSense__TUNING_AUTO) */
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
   78:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
   79:.\Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_hysteresis[CapSense_WIDGET_PARAM_TBL_SIZE];
   80:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 4
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 4
 
 
   81:.\Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_debounce[] = {
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  135:.\Generated_Source\PSoC4/CapSense_CSHL.c **** {
   92              		.loc 1 135 0
   93              		.cfi_startproc
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 5
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 5
 
 
   94 0000 80B5     		push	{r7, lr}
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  129 0034 D318     		add	r3, r2, r3
  130 0036 0022     		mov	r2, #0
  131 0038 1A70     		strb	r2, [r3]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 6
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 6
 
 
  155:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  157              	.L3:
  158              		.align	2
  159              	.L2:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 7
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 7
 
 
  160 0064 00000000 		.word	CapSense_widgetNumber
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  186              		.cfi_def_cfa_offset 16
  187 0004 00AF     		add	r7, sp, #0
  188              		.cfi_def_cfa_register 7
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 8
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 8
 
 
  189 0006 7860     		str	r0, [r7, #4]
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  233:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
  234:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Parameters:
  235:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 9
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 9
 
 
  236:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  254 0024 80BD     		pop	{r7, pc}
  255              		.cfi_endproc
  256              	.LFE37:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 10
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 10
 
 
  257              		.size	CapSense_InitializeAllBaselines, .-CapSense_InitializeAllBaselines
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  278              		.loc 1 288 0
  279 000a C046     		mov	r8, r8
  280              	.L10:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 11
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 11
 
 
  281              		.loc 1 288 0 is_stmt 0 discriminator 1
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  317              		.loc 1 304 0 is_stmt 1
  318 0046 BD46     		mov	sp, r7
  319 0048 02B0     		add	sp, sp, #8
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 12
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 12
 
 
  320              		@ sp needed
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  342:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * 
  343:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
  344:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 13
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 13
 
 
  345:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * 
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  373 0032 1A80     		strh	r2, [r3]
  363:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
  364:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	#if (CapSense_RAW_FILTER_MASK != 0u)
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 14
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 14
 
 
  365:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	if(CapSense_enableRawFilters != 0u)
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  390:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 			filteredRawData = CapSense_JitterFilter(filteredRawData, CapSense_rawFilterData1[sensor]);
  391:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 			CapSense_rawFilterData1[sensor] = filteredRawData;
  392:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 			
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 15
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 15
 
 
  393:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 		#elif (CapSense_RAW_FILTER_MASK & CapSense_IIR8_FILTER)
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  433 009e 3B1C     		mov	r3, r7
  434 00a0 1233     		add	r3, r3, #18
  435 00a2 391C     		mov	r1, r7
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 16
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 16
 
 
  436 00a4 1031     		add	r1, r1, #16
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  431:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         if(CapSense_lowBaselineResetCnt[sensor] >= CapSense_lowBaselineReset[sensor])
  476              		.loc 1 431 0 is_stmt 1
  477 00e6 4B4A     		ldr	r2, .L29+28
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 17
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 17
 
 
  478 00e8 7B68     		ldr	r3, [r7, #4]
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  515 0124 3B1C     		mov	r3, r7
  516 0126 0E33     		add	r3, r3, #14
  517 0128 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 18
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 18
 
 
  518 012a 9BB2     		uxth	r3, r3
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  462:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Add Raw Data to Baseline */
  463:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 calc += filteredRawData;
  556              		.loc 1 463 0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 19
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 19
 
 
  557 016a 3B1C     		mov	r3, r7
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  595 01aa 0E33     		add	r3, r3, #14
  596 01ac 1B78     		ldrb	r3, [r3]
  597 01ae 9BB2     		uxth	r3, r3
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 20
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 20
 
 
  598 01b0 3A1C     		mov	r2, r7
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  496:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     {
  497:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         /* Signal is zero */
  498:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         CapSense_sensorSignal[sensor] = 0u;
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 21
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 21
 
 
  634              		.loc 1 498 0
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  515:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  subtracting the previous baseline from the current raw count value and stores
  516:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  it in CapSense_sensorSignal[sensor]. 
  517:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  If the auto reset option is enabled, the baseline updated regards the noise threshold. 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 22
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 22
 
 
  518:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  If the auto reset option is disabled, the baseline stops updating. 
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  689 0012 181C     		mov	r0, r3
  690 0014 FFF7FEFF 		bl	CapSense_UpdateBaselineNoThreshold
  555:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 23
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 23
 
 
  556:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     #if (CapSense_TOTAL_GENERICS_COUNT)
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  707              		.loc 1 593 0
  708              		.cfi_startproc
  709 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 24
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 24
 
 
  710              		.cfi_def_cfa_offset 8
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  749 0036 BD46     		mov	sp, r7
  750 0038 02B0     		add	sp, sp, #8
  751              		@ sp needed
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 25
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 25
 
 
  752 003a 80BD     		pop	{r7, pc}
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  774 0002 88B0     		sub	sp, sp, #32
  775              		.cfi_def_cfa_offset 40
  776 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 26
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 26
 
 
  777              		.cfi_def_cfa_register 7
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  809 0036 FB69     		ldr	r3, [r7, #28]
  810 0038 181C     		mov	r0, r3
  811 003a FFF7FEFF 		bl	CapSense_UpdateSensorBaseline
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 27
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 27
 
 
  812              	.L40:
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  682:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
  683:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
  684:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 28
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 28
 
 
  685:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  702:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
  703:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Return:
  704:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  None.
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 29
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 29
 
 
  705:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  718:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
  719:.\Generated_Source\PSoC4/CapSense_CSHL.c **** /*******************************************************************************
  720:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Function Name: CapSense_GetDiffCountData
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 30
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 30
 
 
  721:.\Generated_Source\PSoC4/CapSense_CSHL.c **** ********************************************************************************
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  952              		.global	CapSense_SetDiffCountData
  953              		.code	16
  954              		.thumb_func
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 31
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 31
 
 
  955              		.type	CapSense_SetDiffCountData, %function
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  982              		@ sp needed
  983 001e 80BD     		pop	{r7, pc}
  984              	.L57:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 32
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 32
 
 
  985              		.align	2
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1013 000c D318     		add	r3, r2, r3
  1014 000e 1B78     		ldrb	r3, [r3]
  797:.\Generated_Source\PSoC4/CapSense_CSHL.c **** }
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 33
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 33
 
 
  1015              		.loc 1 797 0
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1044 0004 00AF     		add	r7, sp, #0
  1045              		.cfi_def_cfa_register 7
  1046 0006 7860     		str	r0, [r7, #4]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 34
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 34
 
 
  823:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	return (CapSense_noiseThreshold[widget]);
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1073              		.loc 1 850 0
  1074              		.cfi_startproc
  1075 0000 80B5     		push	{r7, lr}
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 35
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 35
 
 
  1076              		.cfi_def_cfa_offset 8
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  871:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *   to the raw count level.
  872:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * 
  873:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Side Effects:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 36
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 36
 
 
  874:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *  None
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  891:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
  892:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Summary:
  893:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  This API sets the finger threshold value for a widget. 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 37
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 37
 
 
  894:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1181              		.align	2
  1182              		.global	CapSense_SetNoiseThreshold
  1183              		.code	16
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 38
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 38
 
 
  1184              		.thumb_func
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1210 001a BD46     		mov	sp, r7
  1211 001c 02B0     		add	sp, sp, #8
  1212              		@ sp needed
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 39
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 39
 
 
  1213 001e 80BD     		pop	{r7, pc}
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1241 000a FB1C     		add	r3, r7, #3
  1242 000c 1A70     		strb	r2, [r3]
  968:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 		CapSense_hysteresis[widget] = value;
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 40
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 40
 
 
  1243              		.loc 1 968 0
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  996:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	{
  1270              		.loc 1 996 0
  1271              		.cfi_startproc
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 41
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 41
 
 
  1272 0000 80B5     		push	{r7, lr}
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1012:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Return Value: 
 1013:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  None
 1014:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 42
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 42
 
 
 1015:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Global Variables:
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1028:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1029:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	/*******************************************************************************
 1030:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Function Name: CapSense_SetLowBaselineReset
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 43
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 43
 
 
 1031:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	********************************************************************************
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1382              		.cfi_endproc
  1383              	.LFE56:
  1384              		.size	CapSense_SetLowBaselineReset, .-CapSense_SetLowBaselineReset
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 44
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 44
 
 
  1385              		.section	.text.CapSense_CheckIsSensorActive,"ax",%progbits
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1395 0000 80B5     		push	{r7, lr}
  1396              		.cfi_def_cfa_offset 8
  1397              		.cfi_offset 7, -8
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 45
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 45
 
 
  1398              		.cfi_offset 14, -4
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1438 0044 1A70     		strb	r2, [r3]
 1113:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	
 1114:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	    debounceIndex = widget;
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 46
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 46
 
 
  1439              		.loc 1 1114 0
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1482 0096 391C     		mov	r1, r7
  1483 0098 0C31     		add	r1, r1, #12
  1484 009a 0978     		ldrb	r1, [r1]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 47
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 47
 
 
  1485 009c D154     		strb	r1, [r2, r3]
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1527 00e6 FFF7FEFF 		bl	CapSense_SetBitValue
  1528 00ea 07E0     		b	.L95
  1529              	.L96:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 48
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 48
 
 
 1138:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             }
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1573              	.LFE57:
  1574              		.size	CapSense_CheckIsSensorActive, .-CapSense_CheckIsSensorActive
  1575              		.section	.text.CapSense_CheckIsWidgetActive,"ax",%progbits
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 49
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 49
 
 
  1576              		.align	2
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1182:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     uint32 numOfSensors = (uint32)CapSense_numberOfSensors[widget] + rawIndex;
  1597              		.loc 1 1182 0
  1598 000c 0123     		mov	r3, #1
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 50
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 50
 
 
  1599 000e 1A1C     		mov	r2, r3
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1636              	.LFE58:
  1637              		.size	CapSense_CheckIsWidgetActive, .-CapSense_CheckIsWidgetActive
  1638              		.section	.text.CapSense_CheckIsAnyWidgetActive,"ax",%progbits
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 51
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 51
 
 
  1639              		.align	2
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1661 000c 7B60     		str	r3, [r7, #4]
  1662 000e 0BE0     		b	.L108
  1663              	.L110:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 52
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 52
 
 
 1232:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     {
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1245:.\Generated_Source\PSoC4/CapSense_CSHL.c **** /*******************************************************************************
 1246:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Function Name: CapSense_EnableWidget
 1247:.\Generated_Source\PSoC4/CapSense_CSHL.c **** ********************************************************************************
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 53
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 53
 
 
 1248:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1728              	.L113:
 1277:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     
 1278:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     /* Enable all sensors of widget */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 54
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 54
 
 
 1279:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     do
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1287:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1288:.\Generated_Source\PSoC4/CapSense_CSHL.c **** /*******************************************************************************
 1289:.\Generated_Source\PSoC4/CapSense_CSHL.c **** * Function Name: CapSense_DisableWidget
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 55
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 55
 
 
 1290:.\Generated_Source\PSoC4/CapSense_CSHL.c **** ********************************************************************************
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1800              	.L117:
 1319:.\Generated_Source\PSoC4/CapSense_CSHL.c ****    
 1320:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     /* Disable all sensors of widget */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 56
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 56
 
 
 1321:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     do
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1329:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1330:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1331:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #if(CapSense_TOTAL_CENTROIDS_BASIC_COUNT)
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 57
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 57
 
 
 1332:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     /*******************************************************************************
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1386:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Initialize */
 1387:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 i = 0u;
 1388:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 58
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 58
 
 
 1389:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Make slider x2 as Diplexed */
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1443:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                         
 1444:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1445:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Check centroid size */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 59
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 59
 
 
 1446:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             #if (CapSense_IS_NON_DIPLEX_SLIDER)
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1500:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  Returns a position value calculated according to the index of the maximum element and API
 1501:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  resolution.
 1502:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 60
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 60
 
 
 1503:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     * Parameters:
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1557:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             #if (CapSense_TOTAL_RADIAL_SLIDERS_COUNT > 0u)                
 1558:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Copy Signal to the centroid array */
 1559:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 CapSense_centroid[CapSense_POS] = startOfSlider[maximum];
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 61
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 61
 
 
 1560:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                  
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1614:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 #endif /* (CapSense_IS_DIPLEX_SLIDER && CapSense_IS_NON_DIPLEX_SLIDER) */
 1615:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                         
 1616:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Copy Signal to the centroid array */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 62
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 62
 
 
 1617:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 #if (CapSense_IS_DIPLEX_SLIDER)
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1671:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                     (uint32) CapSense_centroid[CapSense_POS_PREV];
 1672:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1673:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         /* Si+1 + Si + Si-1 */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 63
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 63
 
 
 1674:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         denominator = (int32) CapSense_centroid[CapSense_POS_PREV] + 
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1728:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 1729:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     * Note:
 1730:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  If noise counts on the slider segments are greater than the noise
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 64
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 64
 
 
 1731:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  threshold, this subroutine may generate a false centroid result. The noise
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1785:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 /* Check if this linear slider has enabled filters */
 1786:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 if (0u != (posFiltersMask & CapSense_ANY_POS_FILTER))
 1787:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 {
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 65
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 65
 
 
 1788:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                     /* Calculate position to store filters data */
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1842:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                *           CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK))
 1843:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                */
 1844:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 66
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 66
 
 
 1845:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                         #if (0u != (CapSense_IIR2_FILTER & CapSense_LINEAR_SLIDERS_POS_FILTERS_MASK
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1899:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #endif /* ((CapSense_TOTAL_RADIAL_SLIDERS_COUNT > 0u) || (CapSense_TOTAL_LINEAR_SLIDERS_COUNT > 0u)
 1900:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1901:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 67
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 67
 
 
 1902:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #if((CapSense_TOTAL_RADIAL_SLIDERS_COUNT > 0u) || (CapSense_TOTAL_LINEAR_SLIDERS_COUNT > 0u))
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 1956:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         uint8 count = CapSense_numberOfSensors[widget];
 1957:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 1958:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 		/* Find Maximum within centroid */      
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 68
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 68
 
 
 1959:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 		#if (CapSense_IS_DIPLEX_SLIDER)        
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2013:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                             }
 2014:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                         #endif /* (0u != (CapSense_MEDIAN_FILTER & 
 2015:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                *          CapSense_RADIAL_SLIDERS_POS_FILTERS_MASK))
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 69
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 69
 
 
 2016:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                */
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2070:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         else
 2071:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         {
 2072:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Maximum wasn't found?? */
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 70
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 70
 
 
 2073:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             position = 0xFFFFu;
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2127:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         #if (0u != CapSense_TOUCH_PADS_POS_FILTERS_MASK)
 2128:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             uint8 posXIndex;
 2129:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             uint8 posYIndex;
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 71
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 71
 
 
 2130:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             uint8 firstTimeIndex = CapSense_posFiltersData[widget];
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2184:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                 #if (0u != CapSense_TOUCH_PADS_POS_FILTERS_MASK)
 2185:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                     /* Check if this TP has enabled filters */
 2186:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                     if (0u != (posFiltersMask & CapSense_ANY_POS_FILTER))
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 72
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 72
 
 
 2187:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                     {
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2241:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                    *          CapSense_TOUCH_PADS_POS_FILTERS_MASK))
 2242:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                    */
 2243:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 73
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 73
 
 
 2244:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                             #if(0u !=(CapSense_AVERAGING_FILTER & CapSense_TOUCH_PADS_POS_FILTERS_M
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2298:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                    */
 2299:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 2300:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                             #if (0u != (CapSense_JITTER_FILTER & CapSense_TOUCH_PADS_POS_FILTERS_MA
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 74
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 74
 
 
 2301:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                                 if (0u != (posFiltersMask & CapSense_JITTER_FILTER))
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2355:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x3:  Before previous value.
 2356:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 2357:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     * Return:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 75
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 75
 
 
 2358:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  Returns filtered value.
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1883 0032 3A1C     		mov	r2, r7
  1884 0034 0E32     		add	r2, r2, #14
  1885 0036 1288     		ldrh	r2, [r2]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 76
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 76
 
 
  1886 0038 1A80     		strh	r2, [r3]
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2386:.\Generated_Source\PSoC4/CapSense_CSHL.c ****       (0u != (CapSense_POS_FILTERS_MASK & CapSense_MEDIAN_FILTER)) || \
 2387:.\Generated_Source\PSoC4/CapSense_CSHL.c ****       ((CapSense_TUNING_METHOD == CapSense__TUNING_AUTO)) ) */
 2388:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 77
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 77
 
 
 2389:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2443:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  None.
 2444:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
 2445:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Side Effects:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 78
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 78
 
 
 2446:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  None
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1941 0008 BB1D     		add	r3, r7, #6
  1942 000a 011C     		add	r1, r0, #0
  1943 000c 1980     		strh	r1, [r3]
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 79
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 79
 
 
  1944 000e 3B1D     		add	r3, r7, #4
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2503:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #if ( (0u != (CapSense_RAW_FILTER_MASK & CapSense_JITTER_FILTER)) || \
 2504:.\Generated_Source\PSoC4/CapSense_CSHL.c ****       (0u != (CapSense_POS_FILTERS_MASK & CapSense_JITTER_FILTER)) || \
 2505:.\Generated_Source\PSoC4/CapSense_CSHL.c ****       (0u != (CapSense_TRACKPAD_GEST_POS_FILTERS_MASK & CapSense_JITTER_FILTER)))  
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 80
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 80
 
 
 2506:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     /*******************************************************************************
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2560:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  x2:  Previous value.
 2561:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *
 2562:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     * Return:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 81
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 81
 
 
 2563:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     *  Returns filtered value.
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2617:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         
 2618:.\Generated_Source\PSoC4/CapSense_CSHL.c ****         return ((uint16) tmp);
 2619:.\Generated_Source\PSoC4/CapSense_CSHL.c ****     }
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 82
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 82
 
 
 2620:.\Generated_Source\PSoC4/CapSense_CSHL.c **** #endif /* (CapSense_RAW_FILTER_MASK & CapSense_IIR16_FILTER) */
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2674:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 
 2675:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             /* Find row number with maximal signal value */
 2676:.\Generated_Source\PSoC4/CapSense_CSHL.c ****             for(i = CapSense_rawDataIndex[widget+1u]; i < (CapSense_rawDataIndex[widget+1u] + \
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 83
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 83
 
 
 2677:.\Generated_Source\PSoC4/CapSense_CSHL.c ****                  CapSense_numberOfSensors[widget+1u]); i++)
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  1993              		.cfi_def_cfa_register 7
  1994 0006 7860     		str	r0, [r7, #4]
 2722:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	return((uint32)CapSense_widgetNumber[sensor]);
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 84
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 84
 
 
  1995              		.loc 1 2722 0
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2024              		.cfi_def_cfa_offset 8
  2025              		.cfi_offset 7, -8
  2026              		.cfi_offset 14, -4
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 85
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 85
 
 
  2027 0002 82B0     		sub	sp, sp, #8
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2771:.\Generated_Source\PSoC4/CapSense_CSHL.c **** *******************************************************************************/
 2772:.\Generated_Source\PSoC4/CapSense_CSHL.c **** uint8 CapSense_GetDebounce(uint32 widget)
 2773:.\Generated_Source\PSoC4/CapSense_CSHL.c **** {
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 86
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 86
 
 
  2058              		.loc 1 2773 0
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2791:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Global Variables:
 2792:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  CapSense_enableRawFilters defines if the filters are enabled or not.
 2793:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 87
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 87
 
 
 2794:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Side Effects:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
 2817:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  CapSense_enableRawFilters defines if the filters are enabled or not.
 2818:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*
 2819:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	* Side Effects:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 88
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 88
 
 
 2820:.\Generated_Source\PSoC4/CapSense_CSHL.c **** 	*  None
@@ -5265,7 +5265,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2160 000c F7050000 		.4byte	.LASF112
  2161 0010 01       		.byte	0x1
  2162 0011 3E040000 		.4byte	.LASF113
- 2163 0015 12080000 		.4byte	.LASF114
+ 2163 0015 EB080000 		.4byte	.LASF114
  2164 0019 00000000 		.4byte	.Ldebug_ranges0+0
  2165 001d 00000000 		.4byte	0
  2166 0021 00000000 		.4byte	.Ldebug_line0
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2173 002e 08       		.byte	0x8
  2174 002f 90060000 		.4byte	.LASF1
  2175 0033 02       		.uleb128 0x2
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 89
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 89
 
 
  2176 0034 02       		.byte	0x2
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2230 009a 02       		.uleb128 0x2
  2231 009b 01       		.byte	0x1
  2232 009c 08       		.byte	0x8
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 90
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 90
 
 
  2233 009d 95070000 		.4byte	.LASF14
@@ -5394,11 +5394,11 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2283 00ff 6A010000 		.4byte	0x16a
  2284 0103 18       		.byte	0x18
  2285 0104 06       		.uleb128 0x6
- 2286 0105 07090000 		.4byte	.LASF23
+ 2286 0105 D6080000 		.4byte	.LASF23
  2287 0109 03       		.byte	0x3
  2288 010a 38       		.byte	0x38
  2289 010b 5F010000 		.4byte	0x15f
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 91
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 91
 
 
  2290 010f 1C       		.byte	0x1c
@@ -5433,7 +5433,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2319 0147 AA010000 		.4byte	0x1aa
  2320 014b 30       		.byte	0x30
  2321 014c 06       		.uleb128 0x6
- 2322 014d 94080000 		.4byte	.LASF29
+ 2322 014d 63080000 		.4byte	.LASF29
  2323 0151 03       		.byte	0x3
  2324 0152 3E       		.byte	0x3e
  2325 0153 C5010000 		.4byte	0x1c5
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2344 017e 00       		.byte	0
  2345 017f 07       		.uleb128 0x7
  2346 0180 04       		.byte	0x4
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 92
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 92
 
 
  2347 0181 70010000 		.4byte	0x170
@@ -5504,13 +5504,13 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2387 01d9 41       		.byte	0x41
  2388 01da 27020000 		.4byte	0x227
  2389 01de 06       		.uleb128 0x6
- 2390 01df 55080000 		.4byte	.LASF31
+ 2390 01df 24080000 		.4byte	.LASF31
  2391 01e3 03       		.byte	0x3
  2392 01e4 43       		.byte	0x43
  2393 01e5 6B000000 		.4byte	0x6b
  2394 01e9 00       		.byte	0
  2395 01ea 06       		.uleb128 0x6
- 2396 01eb 1C090000 		.4byte	.LASF32
+ 2396 01eb 2F090000 		.4byte	.LASF32
  2397 01ef 03       		.byte	0x3
  2398 01f0 44       		.byte	0x44
  2399 01f1 6B000000 		.4byte	0x6b
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2401 01f6 06       		.uleb128 0x6
  2402 01f7 05030000 		.4byte	.LASF33
  2403 01fb 03       		.byte	0x3
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 93
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 93
 
 
  2404 01fc 45       		.byte	0x45
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2458 026b 02       		.uleb128 0x2
  2459 026c 91       		.byte	0x91
  2460 026d 77       		.sleb128 -9
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 94
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 94
 
 
  2461 026e 00       		.byte	0
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2515 02d8 13       		.uleb128 0x13
  2516 02d9 12070000 		.4byte	.LASF44
  2517 02dd 01       		.byte	0x1
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 95
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 95
 
 
  2518 02de 1D01     		.2byte	0x11d
@@ -5673,7 +5673,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2547 031a 91       		.byte	0x91
  2548 031b 60       		.sleb128 -32
  2549 031c 13       		.uleb128 0x13
- 2550 031d 43080000 		.4byte	.LASF47
+ 2550 031d 12080000 		.4byte	.LASF47
  2551 0321 01       		.byte	0x1
  2552 0322 5E01     		.2byte	0x15e
  2553 0324 81000000 		.4byte	0x81
@@ -5681,7 +5681,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2555 0329 91       		.byte	0x91
  2556 032a 6C       		.sleb128 -20
  2557 032b 13       		.uleb128 0x13
- 2558 032c 14090000 		.4byte	.LASF48
+ 2558 032c E3080000 		.4byte	.LASF48
  2559 0330 01       		.byte	0x1
  2560 0331 5F01     		.2byte	0x15f
  2561 0333 76000000 		.4byte	0x76
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2572 0348 68       		.sleb128 -24
  2573 0349 13       		.uleb128 0x13
  2574 034a 01070000 		.4byte	.LASF42
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 96
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 96
 
 
  2575 034e 01       		.byte	0x1
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2629 03b9 81000000 		.4byte	0x81
  2630 03bd 02       		.uleb128 0x2
  2631 03be 91       		.byte	0x91
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 97
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 97
 
 
  2632 03bf 70       		.sleb128 -16
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2686 0426 8302     		.2byte	0x283
  2687 0428 81000000 		.4byte	0x81
  2688 042c 02       		.uleb128 0x2
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 98
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 98
 
 
  2689 042d 91       		.byte	0x91
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2743 049f 1C000000 		.4byte	.LFE45-.LFB45
  2744 04a3 01       		.uleb128 0x1
  2745 04a4 9C       		.byte	0x9c
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 99
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 99
 
 
  2746 04a5 B9040000 		.4byte	0x4b9
@@ -5892,7 +5892,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2754 04b7 74       		.sleb128 -12
  2755 04b8 00       		.byte	0
  2756 04b9 16       		.uleb128 0x16
- 2757 04ba 7A080000 		.4byte	.LASF61
+ 2757 04ba 49080000 		.4byte	.LASF61
  2758 04be 01       		.byte	0x1
  2759 04bf FF02     		.2byte	0x2ff
  2760 04c1 00000000 		.4byte	.LFB46
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2800 0517 00       		.byte	0
  2801 0518 15       		.uleb128 0x15
  2802 0519 54010000 		.4byte	.LASF64
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 100
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 100
 
 
  2803 051d 01       		.byte	0x1
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2857 0595 00       		.byte	0
  2858 0596 16       		.uleb128 0x16
  2859 0597 C4020000 		.4byte	.LASF67
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 101
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 101
 
 
  2860 059b 01       		.byte	0x1
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2914 0608 00000000 		.4byte	.LFB53
  2915 060c 24000000 		.4byte	.LFE53-.LFB53
  2916 0610 01       		.uleb128 0x1
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 102
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 102
 
 
  2917 0611 9C       		.byte	0x9c
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  2971 0680 14       		.uleb128 0x14
  2972 0681 01070000 		.4byte	.LASF42
  2973 0685 01       		.byte	0x1
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 103
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 103
 
 
  2974 0686 FF03     		.2byte	0x3ff
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3028 06f6 81000000 		.4byte	0x81
  3029 06fa 02       		.uleb128 0x2
  3030 06fb 91       		.byte	0x91
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 104
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 104
 
 
  3031 06fc 6C       		.sleb128 -20
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3085 0768 01       		.byte	0x1
  3086 0769 9B04     		.2byte	0x49b
  3087 076b 81000000 		.4byte	0x81
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 105
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 105
 
 
  3088 076f 02       		.uleb128 0x2
@@ -6253,7 +6253,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3097 077f 91       		.byte	0x91
  3098 0780 74       		.sleb128 -12
  3099 0781 13       		.uleb128 0x13
- 3100 0782 48080000 		.4byte	.LASF80
+ 3100 0782 17080000 		.4byte	.LASF80
  3101 0786 01       		.byte	0x1
  3102 0787 9E04     		.2byte	0x49e
  3103 0789 81000000 		.4byte	0x81
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3142 07d6 00       		.byte	0
  3143 07d7 11       		.uleb128 0x11
  3144 07d8 AA040000 		.4byte	.LASF83
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 106
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 106
 
 
  3145 07dc 01       		.byte	0x1
@@ -6325,7 +6325,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3166 0809 91       		.byte	0x91
  3167 080a 77       		.sleb128 -9
  3168 080b 13       		.uleb128 0x13
- 3169 080c 48080000 		.4byte	.LASF80
+ 3169 080c 17080000 		.4byte	.LASF80
  3170 0810 01       		.byte	0x1
  3171 0811 FC04     		.2byte	0x4fc
  3172 0813 6B000000 		.4byte	0x6b
@@ -6358,11 +6358,11 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3199 084c 02       		.uleb128 0x2
  3200 084d 91       		.byte	0x91
  3201 084e 77       		.sleb128 -9
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 107
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 107
 
 
  3202 084f 13       		.uleb128 0x13
- 3203 0850 48080000 		.4byte	.LASF80
+ 3203 0850 17080000 		.4byte	.LASF80
  3204 0854 01       		.byte	0x1
  3205 0855 2605     		.2byte	0x526
  3206 0857 6B000000 		.4byte	0x6b
@@ -6414,11 +6414,11 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3252 08b1 76       		.sleb128 -10
  3253 08b2 00       		.byte	0
  3254 08b3 15       		.uleb128 0x15
- 3255 08b4 F3080000 		.4byte	.LASF86
+ 3255 08b4 C2080000 		.4byte	.LASF86
  3256 08b8 01       		.byte	0x1
  3257 08b9 B709     		.2byte	0x9b7
  3258 08bb 76000000 		.4byte	0x76
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 108
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 108
 
 
  3259 08bf 00000000 		.4byte	.LFB63
@@ -6452,7 +6452,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3287 08f7 74       		.sleb128 -12
  3288 08f8 00       		.byte	0
  3289 08f9 15       		.uleb128 0x15
- 3290 08fa A3080000 		.4byte	.LASF87
+ 3290 08fa 72080000 		.4byte	.LASF87
  3291 08fe 01       		.byte	0x1
  3292 08ff A00A     		.2byte	0xaa0
  3293 0901 81000000 		.4byte	0x81
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3313 092f 00000000 		.4byte	.LFB65
  3314 0933 1C000000 		.4byte	.LFE65-.LFB65
  3315 0937 01       		.uleb128 0x1
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 109
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 109
 
 
  3316 0938 9C       		.byte	0x9c
@@ -6512,7 +6512,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3344 0975 74       		.sleb128 -12
  3345 0976 00       		.byte	0
  3346 0977 19       		.uleb128 0x19
- 3347 0978 BC080000 		.4byte	.LASF90
+ 3347 0978 8B080000 		.4byte	.LASF90
  3348 097c 01       		.byte	0x1
  3349 097d EE0A     		.2byte	0xaee
  3350 097f 00000000 		.4byte	.LFB67
@@ -6535,10 +6535,10 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3367 09a9 01       		.byte	0x1
  3368 09aa 00       		.byte	0
  3369 09ab 0E       		.uleb128 0xe
- 3370 09ac DA080000 		.4byte	.LASF92
+ 3370 09ac A9080000 		.4byte	.LASF92
  3371 09b0 01       		.byte	0x1
  3372 09b1 55       		.byte	0x55
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 110
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 110
 
 
  3373 09b2 9B090000 		.4byte	0x99b
@@ -6553,7 +6553,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3382 09ca 00       		.byte	0
  3383 09cb 00       		.byte	0
  3384 09cc 1C       		.uleb128 0x1c
- 3385 09cd 67080000 		.4byte	.LASF93
+ 3385 09cd 36080000 		.4byte	.LASF93
  3386 09d1 01       		.byte	0x1
  3387 09d2 2C       		.byte	0x2c
  3388 09d3 BC090000 		.4byte	0x9bc
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3427 0a2a 36       		.byte	0x36
  3428 0a2b D7090000 		.4byte	0x9d7
  3429 0a2f 05       		.uleb128 0x5
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 111
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 111
 
 
  3430 0a30 03       		.byte	0x3
@@ -6644,7 +6644,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3470 0a85 03       		.byte	0x3
  3471 0a86 00000000 		.4byte	CapSense_noiseThreshold
  3472 0a8a 1D       		.uleb128 0x1d
- 3473 0a8b 2C090000 		.4byte	.LASF104
+ 3473 0a8b 3F090000 		.4byte	.LASF104
  3474 0a8f 01       		.byte	0x1
  3475 0a90 4D       		.byte	0x4d
  3476 0a91 D7090000 		.4byte	0x9d7
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3484 0aa2 D7090000 		.4byte	0x9d7
  3485 0aa6 05       		.uleb128 0x5
  3486 0aa7 03       		.byte	0x3
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 112
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 112
 
 
  3487 0aa8 00000000 		.4byte	CapSense_hysteresis
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3541 0001 11       		.uleb128 0x11
  3542 0002 01       		.byte	0x1
  3543 0003 25       		.uleb128 0x25
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 113
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 113
 
 
  3544 0004 0E       		.uleb128 0xe
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3598 003a 0B       		.uleb128 0xb
  3599 003b 3A       		.uleb128 0x3a
  3600 003c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 114
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 114
 
 
  3601 003d 3B       		.uleb128 0x3b
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3655 0073 00       		.byte	0
  3656 0074 0B       		.uleb128 0xb
  3657 0075 15       		.uleb128 0x15
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 115
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 115
 
 
  3658 0076 01       		.byte	0x1
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3712 00ad 3B       		.uleb128 0x3b
  3713 00ae 0B       		.uleb128 0xb
  3714 00af 49       		.uleb128 0x49
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 116
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 116
 
 
  3715 00b0 13       		.uleb128 0x13
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3769 00e7 3B       		.uleb128 0x3b
  3770 00e8 05       		.uleb128 0x5
  3771 00e9 27       		.uleb128 0x27
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 117
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 117
 
 
  3772 00ea 19       		.uleb128 0x19
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3826 0121 02       		.uleb128 0x2
  3827 0122 18       		.uleb128 0x18
  3828 0123 00       		.byte	0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 118
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 118
 
 
  3829 0124 00       		.byte	0
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3883 015c 2E       		.uleb128 0x2e
  3884 015d 01       		.byte	0x1
  3885 015e 3F       		.uleb128 0x3f
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 119
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 119
 
 
  3886 015f 19       		.uleb128 0x19
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3940 0196 06       		.uleb128 0x6
  3941 0197 40       		.uleb128 0x40
  3942 0198 18       		.uleb128 0x18
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 120
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 120
 
 
  3943 0199 9742     		.uleb128 0x2117
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  3997 01d0 00       		.byte	0
  3998 01d1 00       		.byte	0
  3999 01d2 00       		.byte	0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 121
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 121
 
 
  4000              		.section	.debug_aranges,"",%progbits
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4054 00c8 00000000 		.4byte	.LFB58
  4055 00cc 44000000 		.4byte	.LFE58-.LFB58
  4056 00d0 00000000 		.4byte	.LFB59
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 122
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 122
 
 
  4057 00d4 38000000 		.4byte	.LFE59-.LFB59
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4111 007c 1C000000 		.4byte	.LFE50
  4112 0080 00000000 		.4byte	.LFB51
  4113 0084 24000000 		.4byte	.LFE51
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 123
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 123
 
 
  4114 0088 00000000 		.4byte	.LFB52
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4158      5F687973 
  4158      74657265 
  4158      73697300 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 124
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 124
 
 
  4159              	.LASF107:
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4178      5F4D6564 
  4178      69616E46 
  4178      696C7465 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 125
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 125
 
 
  4179              	.LASF7:
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4199              	.LASF21:
  4200 01fd 77696467 		.ascii	"widgetNubmersTbl\000"
  4200      65744E75 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 126
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 126
 
 
  4200      626D6572 
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4224 02c4 43617053 		.ascii	"CapSense_SetFingerThreshold\000"
  4224      656E7365 
  4224      5F536574 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 127
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 127
 
 
  4224      46696E67 
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4246 038c 70747247 		.ascii	"ptrGetBitValue\000"
  4246      65744269 
  4246      7456616C 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 128
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 128
 
 
  4246      756500
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4268      536F7572 
  4268      63655C50 
  4269              	.LASF60:
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 129
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 129
 
 
  4270 0467 43617053 		.ascii	"CapSense_GetDiffCountData\000"
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4290      314C6576 
  4290      656C7354 
  4290      626C00
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 130
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 130
 
 
  4291              	.LASF17:
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4310 065d 30202D66 		.ascii	"0 -ffunction-sections\000"
  4310      66756E63 
  4310      74696F6E 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 131
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 131
 
 
  4310      2D736563 
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4332      656E7365 
  4332      5F426173 
  4332      65496E69 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 132
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 132
 
 
  4332      7400
@@ -7918,91 +7918,95 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 1
  4352      65725468 
  4353              	.LASF26:
  4354 0807 70747250 		.ascii	"ptrPreScan\000"
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 133
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 133
 
 
  4354      72655363 
  4354      616E00
- 4355              	.LASF114:
- 4356 0812 443A5C55 		.ascii	"D:\\Users\\jsing\\Desktop\\BLE Lab 4\\BLE Lab 4.cyd"
- 4356      73657273 
- 4356      5C6A7369 
- 4356      6E675C44 
- 4356      65736B74 
- 4357 0840 736E00   		.ascii	"sn\000"
- 4358              	.LASF47:
- 4359 0843 7369676E 		.ascii	"sign\000"
- 4359      00
- 4360              	.LASF80:
- 4361 0848 6E756D4F 		.ascii	"numOfSensors\000"
- 4361      6653656E 
- 4361      736F7273 
- 4361      00
- 4362              	.LASF31:
- 4363 0855 746F7461 		.ascii	"totalScanslotsNum\000"
- 4363      6C536361 
- 4363      6E736C6F 
- 4363      74734E75 
- 4363      6D00
- 4364              	.LASF93:
- 4365 0867 43617053 		.ascii	"CapSense_sensorRaw\000"
- 4365      656E7365 
- 4365      5F73656E 
- 4365      736F7252 
- 4365      617700
- 4366              	.LASF61:
- 4367 087a 43617053 		.ascii	"CapSense_SetDiffCountData\000"
- 4367      656E7365 
- 4367      5F536574 
- 4367      44696666 
- 4367      436F756E 
- 4368              	.LASF29:
- 4369 0894 70747253 		.ascii	"ptrSetBitValue\000"
- 4369      65744269 
- 4369      7456616C 
- 4369      756500
- 4370              	.LASF87:
- 4371 08a3 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
- 4371      656E7365 
- 4371      5F476574 
- 4371      57696467 
- 4371      65744E75 
- 4372              	.LASF90:
- 4373 08bc 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
- 4373      656E7365 
- 4373      5F456E61 
- 4373      626C6552 
- 4373      61774461 
- 4374              	.LASF92:
- 4375 08da 43617053 		.ascii	"CapSense_debounceCounter\000"
- 4375      656E7365 
- 4375      5F646562 
- 4375      6F756E63 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccfFlSA3.s 			page 134
+ 4355              	.LASF47:
+ 4356 0812 7369676E 		.ascii	"sign\000"
+ 4356      00
+ 4357              	.LASF80:
+ 4358 0817 6E756D4F 		.ascii	"numOfSensors\000"
+ 4358      6653656E 
+ 4358      736F7273 
+ 4358      00
+ 4359              	.LASF31:
+ 4360 0824 746F7461 		.ascii	"totalScanslotsNum\000"
+ 4360      6C536361 
+ 4360      6E736C6F 
+ 4360      74734E75 
+ 4360      6D00
+ 4361              	.LASF93:
+ 4362 0836 43617053 		.ascii	"CapSense_sensorRaw\000"
+ 4362      656E7365 
+ 4362      5F73656E 
+ 4362      736F7252 
+ 4362      617700
+ 4363              	.LASF61:
+ 4364 0849 43617053 		.ascii	"CapSense_SetDiffCountData\000"
+ 4364      656E7365 
+ 4364      5F536574 
+ 4364      44696666 
+ 4364      436F756E 
+ 4365              	.LASF29:
+ 4366 0863 70747253 		.ascii	"ptrSetBitValue\000"
+ 4366      65744269 
+ 4366      7456616C 
+ 4366      756500
+ 4367              	.LASF87:
+ 4368 0872 43617053 		.ascii	"CapSense_GetWidgetNumber\000"
+ 4368      656E7365 
+ 4368      5F476574 
+ 4368      57696467 
+ 4368      65744E75 
+ 4369              	.LASF90:
+ 4370 088b 43617053 		.ascii	"CapSense_EnableRawDataFilters\000"
+ 4370      656E7365 
+ 4370      5F456E61 
+ 4370      626C6552 
+ 4370      61774461 
+ 4371              	.LASF92:
+ 4372 08a9 43617053 		.ascii	"CapSense_debounceCounter\000"
+ 4372      656E7365 
+ 4372      5F646562 
+ 4372      6F756E63 
+ 4372      65436F75 
+ 4373              	.LASF86:
+ 4374 08c2 43617053 		.ascii	"CapSense_IIR4Filter\000"
+ 4374      656E7365 
+ 4374      5F494952 
+ 4374      3446696C 
+ 4374      74657200 
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccHQxQnh.s 			page 134
 
 
- 4375      65436F75 
- 4376              	.LASF86:
- 4377 08f3 43617053 		.ascii	"CapSense_IIR4Filter\000"
- 4377      656E7365 
- 4377      5F494952 
- 4377      3446696C 
- 4377      74657200 
- 4378              	.LASF23:
- 4379 0907 72617744 		.ascii	"rawDataIndex\000"
- 4379      61746149 
- 4379      6E646578 
- 4379      00
- 4380              	.LASF48:
- 4381 0914 74656D70 		.ascii	"tempRaw\000"
- 4381      52617700 
+ 4375              	.LASF23:
+ 4376 08d6 72617744 		.ascii	"rawDataIndex\000"
+ 4376      61746149 
+ 4376      6E646578 
+ 4376      00
+ 4377              	.LASF48:
+ 4378 08e3 74656D70 		.ascii	"tempRaw\000"
+ 4378      52617700 
+ 4379              	.LASF114:
+ 4380 08eb 443A5C55 		.ascii	"D:\\Users\\jsing\\Desktop\\BLE Lab 4\\Lab 4 Additio"
+ 4380      73657273 
+ 4380      5C6A7369 
+ 4380      6E675C44 
+ 4380      65736B74 
+ 4381 0919 6E616C20 		.ascii	"nal 1\\BLE Lab 4.cydsn\000"
+ 4381      315C424C 
+ 4381      45204C61 
+ 4381      6220342E 
+ 4381      63796473 
  4382              	.LASF32:
- 4383 091c 746F7461 		.ascii	"totalWidgetsNum\000"
+ 4383 092f 746F7461 		.ascii	"totalWidgetsNum\000"
  4383      6C576964 
  4383      67657473 
  4383      4E756D00 
  4384              	.LASF104:
- 4385 092c 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
+ 4385 093f 43617053 		.ascii	"CapSense_negativeNoiseThreshold\000"
  4385      656E7365 
  4385      5F6E6567 
  4385      61746976 

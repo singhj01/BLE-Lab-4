@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 1
 
 
    1              		.cpu cortex-m0
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
   30:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** *
   31:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** * Parameters:
   32:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** *  alignClkDiv:  The divider to which phase alignment is performed when the
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 2
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 2
 
 
   33:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** *    clock is started.
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
   60              		.align	2
   61              	.L3:
   62 0024 00000140 		.word	1073807360
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 3
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 3
 
 
   63 0028 40000080 		.word	-2147483584
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
   94:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** *******************************************************************************/
   95:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** void CapSense_SampleClk_Stop(void)
   96:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** {
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 4
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 4
 
 
   75              		.loc 1 96 0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  110              		.code	16
  111              		.thumb_func
  112              		.type	CapSense_SampleClk_SetFractionalDividerRegister, %function
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 5
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 5
 
 
  113              	CapSense_SampleClk_SetFractionalDividerRegister:
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  146:.\Generated_Source\PSoC4/CapSense_SampleClk.c ****         ((uint32)((uint32)clkDivider <<  CapSense_SampleClk_DIV_INT_SHIFT) & CapSense_SampleClk_DIV
  137              		.loc 1 146 0
  138 001c BB1D     		add	r3, r7, #6
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 6
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 6
 
 
  139 001e 1B88     		ldrh	r3, [r3]
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  161:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** /*******************************************************************************
  162:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** * Function Name: CapSense_SampleClk_GetDividerRegister
  163:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** ********************************************************************************
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 7
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 7
 
 
  164:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** *
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  182:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** 
  183:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** /*******************************************************************************
  184:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** * Function Name: CapSense_SampleClk_GetFractionalDividerRegister
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 8
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 8
 
 
  185:.\Generated_Source\PSoC4/CapSense_SampleClk.c **** ********************************************************************************
@@ -472,48 +472,48 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  237 0006 00000000 		.4byte	.Ldebug_abbrev0
  238 000a 04       		.byte	0x4
  239 000b 01       		.uleb128 0x1
- 240 000c 6E010000 		.4byte	.LASF25
+ 240 000c 3D010000 		.4byte	.LASF25
  241 0010 01       		.byte	0x1
- 242 0011 2C010000 		.4byte	.LASF26
- 243 0015 00000000 		.4byte	.LASF27
+ 242 0011 FB000000 		.4byte	.LASF26
+ 243 0015 F2010000 		.4byte	.LASF27
  244 0019 00000000 		.4byte	.Ldebug_ranges0+0
  245 001d 00000000 		.4byte	0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 9
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 9
 
 
  246 0021 00000000 		.4byte	.Ldebug_line0
  247 0025 02       		.uleb128 0x2
  248 0026 01       		.byte	0x1
  249 0027 06       		.byte	0x6
- 250 0028 3C020000 		.4byte	.LASF0
+ 250 0028 4F020000 		.4byte	.LASF0
  251 002c 02       		.uleb128 0x2
  252 002d 01       		.byte	0x1
  253 002e 08       		.byte	0x8
- 254 002f BF000000 		.4byte	.LASF1
+ 254 002f 8E000000 		.4byte	.LASF1
  255 0033 02       		.uleb128 0x2
  256 0034 02       		.byte	0x2
  257 0035 05       		.byte	0x5
- 258 0036 23020000 		.4byte	.LASF2
+ 258 0036 36020000 		.4byte	.LASF2
  259 003a 02       		.uleb128 0x2
  260 003b 02       		.byte	0x2
  261 003c 07       		.byte	0x7
- 262 003d DF000000 		.4byte	.LASF3
+ 262 003d AE000000 		.4byte	.LASF3
  263 0041 02       		.uleb128 0x2
  264 0042 04       		.byte	0x4
  265 0043 05       		.byte	0x5
- 266 0044 33020000 		.4byte	.LASF4
+ 266 0044 46020000 		.4byte	.LASF4
  267 0048 02       		.uleb128 0x2
  268 0049 04       		.byte	0x4
  269 004a 07       		.byte	0x7
- 270 004b CD000000 		.4byte	.LASF5
+ 270 004b 9C000000 		.4byte	.LASF5
  271 004f 02       		.uleb128 0x2
  272 0050 08       		.byte	0x8
  273 0051 05       		.byte	0x5
- 274 0052 10020000 		.4byte	.LASF6
+ 274 0052 DF010000 		.4byte	.LASF6
  275 0056 02       		.uleb128 0x2
  276 0057 08       		.byte	0x8
  277 0058 07       		.byte	0x7
- 278 0059 A8000000 		.4byte	.LASF7
+ 278 0059 77000000 		.4byte	.LASF7
  279 005d 03       		.uleb128 0x3
  280 005e 04       		.byte	0x4
  281 005f 05       		.byte	0x5
@@ -521,46 +521,46 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  283 0064 02       		.uleb128 0x2
  284 0065 04       		.byte	0x4
  285 0066 07       		.byte	0x7
- 286 0067 61010000 		.4byte	.LASF8
+ 286 0067 30010000 		.4byte	.LASF8
  287 006b 04       		.uleb128 0x4
- 288 006c 2D020000 		.4byte	.LASF9
+ 288 006c 40020000 		.4byte	.LASF9
  289 0070 02       		.byte	0x2
  290 0071 A1       		.byte	0xa1
  291 0072 2C000000 		.4byte	0x2c
  292 0076 04       		.uleb128 0x4
- 293 0077 25010000 		.4byte	.LASF10
+ 293 0077 F4000000 		.4byte	.LASF10
  294 007b 02       		.byte	0x2
  295 007c A2       		.byte	0xa2
  296 007d 3A000000 		.4byte	0x3a
  297 0081 04       		.uleb128 0x4
- 298 0082 5A010000 		.4byte	.LASF11
+ 298 0082 29010000 		.4byte	.LASF11
  299 0086 02       		.byte	0x2
  300 0087 A3       		.byte	0xa3
  301 0088 48000000 		.4byte	0x48
  302 008c 02       		.uleb128 0x2
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 10
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 10
 
 
  303 008d 04       		.byte	0x4
  304 008e 04       		.byte	0x4
- 305 008f 72000000 		.4byte	.LASF12
+ 305 008f 41000000 		.4byte	.LASF12
  306 0093 02       		.uleb128 0x2
  307 0094 08       		.byte	0x8
  308 0095 04       		.byte	0x4
- 309 0096 FD000000 		.4byte	.LASF13
+ 309 0096 CC000000 		.4byte	.LASF13
  310 009a 02       		.uleb128 0x2
  311 009b 01       		.byte	0x1
  312 009c 08       		.byte	0x8
- 313 009d 1E020000 		.4byte	.LASF14
+ 313 009d ED010000 		.4byte	.LASF14
  314 00a1 05       		.uleb128 0x5
- 315 00a2 31000000 		.4byte	.LASF15
+ 315 00a2 00000000 		.4byte	.LASF15
  316 00a6 02       		.byte	0x2
  317 00a7 4D01     		.2byte	0x14d
  318 00a9 AD000000 		.4byte	0xad
  319 00ad 06       		.uleb128 0x6
  320 00ae 81000000 		.4byte	0x81
  321 00b2 07       		.uleb128 0x7
- 322 00b3 57000000 		.4byte	.LASF16
+ 322 00b3 26000000 		.4byte	.LASF16
  323 00b7 01       		.byte	0x1
  324 00b8 27       		.byte	0x27
  325 00b9 00000000 		.4byte	.LFB0
@@ -569,7 +569,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  328 00c2 9C       		.byte	0x9c
  329 00c3 D6000000 		.4byte	0xd6
  330 00c7 08       		.uleb128 0x8
- 331 00c8 0B010000 		.4byte	.LASF18
+ 331 00c8 DA000000 		.4byte	.LASF18
  332 00cc 01       		.byte	0x1
  333 00cd 27       		.byte	0x27
  334 00ce 81000000 		.4byte	0x81
@@ -578,7 +578,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  337 00d4 74       		.sleb128 -12
  338 00d5 00       		.byte	0
  339 00d6 09       		.uleb128 0x9
- 340 00d7 3F000000 		.4byte	.LASF28
+ 340 00d7 0E000000 		.4byte	.LASF28
  341 00db 01       		.byte	0x1
  342 00dc 5F       		.byte	0x5f
  343 00dd 00000000 		.4byte	.LFB1
@@ -586,7 +586,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  345 00e5 01       		.uleb128 0x1
  346 00e6 9C       		.byte	0x9c
  347 00e7 07       		.uleb128 0x7
- 348 00e8 78000000 		.4byte	.LASF17
+ 348 00e8 47000000 		.4byte	.LASF17
  349 00ec 01       		.byte	0x1
  350 00ed 86       		.byte	0x86
  351 00ee 00000000 		.4byte	.LFB2
@@ -595,10 +595,10 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  354 00f7 9C       		.byte	0x9c
  355 00f8 35010000 		.4byte	0x135
  356 00fc 08       		.uleb128 0x8
- 357 00fd F2000000 		.4byte	.LASF19
+ 357 00fd C1000000 		.4byte	.LASF19
  358 0101 01       		.byte	0x1
  359 0102 86       		.byte	0x86
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 11
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 11
 
 
  360 0103 76000000 		.4byte	0x76
@@ -606,7 +606,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  362 0108 91       		.byte	0x91
  363 0109 6E       		.sleb128 -18
  364 010a 08       		.uleb128 0x8
- 365 010b 17010000 		.4byte	.LASF20
+ 365 010b E6000000 		.4byte	.LASF20
  366 010f 01       		.byte	0x1
  367 0110 86       		.byte	0x86
  368 0111 6B000000 		.4byte	0x6b
@@ -614,7 +614,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  370 0116 91       		.byte	0x91
  371 0117 6D       		.sleb128 -19
  372 0118 0A       		.uleb128 0xa
- 373 0119 37000000 		.4byte	.LASF21
+ 373 0119 06000000 		.4byte	.LASF21
  374 011d 01       		.byte	0x1
  375 011e 88       		.byte	0x88
  376 011f 81000000 		.4byte	0x81
@@ -622,7 +622,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  378 0124 91       		.byte	0x91
  379 0125 74       		.sleb128 -12
  380 0126 0A       		.uleb128 0xa
- 381 0127 04010000 		.4byte	.LASF22
+ 381 0127 D3000000 		.4byte	.LASF22
  382 012b 01       		.byte	0x1
  383 012c 89       		.byte	0x89
  384 012d 81000000 		.4byte	0x81
@@ -631,7 +631,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  387 0133 70       		.sleb128 -16
  388 0134 00       		.byte	0
  389 0135 0B       		.uleb128 0xb
- 390 0136 EA010000 		.4byte	.LASF23
+ 390 0136 B9010000 		.4byte	.LASF23
  391 013a 01       		.byte	0x1
  392 013b B0       		.byte	0xb0
  393 013c 76000000 		.4byte	0x76
@@ -640,7 +640,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  396 0148 01       		.uleb128 0x1
  397 0149 9C       		.byte	0x9c
  398 014a 0B       		.uleb128 0xb
- 399 014b 48020000 		.4byte	.LASF24
+ 399 014b 5B020000 		.4byte	.LASF24
  400 014f 01       		.byte	0x1
  401 0150 C6       		.byte	0xc6
  402 0151 6B000000 		.4byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  414 0004 0E       		.uleb128 0xe
  415 0005 13       		.uleb128 0x13
  416 0006 0B       		.uleb128 0xb
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 12
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 12
 
 
  417 0007 03       		.uleb128 0x3
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  471 003d 3B       		.uleb128 0x3b
  472 003e 05       		.uleb128 0x5
  473 003f 49       		.uleb128 0x49
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 13
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 13
 
 
  474 0040 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  528 0077 19       		.uleb128 0x19
  529 0078 03       		.uleb128 0x3
  530 0079 0E       		.uleb128 0xe
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 14
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 14
 
 
  531 007a 3A       		.uleb128 0x3a
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  585 00b2 00       		.byte	0
  586 00b3 00       		.byte	0
  587 00b4 00       		.byte	0
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 15
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 15
 
 
  588              		.section	.debug_aranges,"",%progbits
@@ -882,155 +882,159 @@ ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 1
  624      00000201 
  624      FB0E0D00 
  624      01010101 
- 625              	.LASF27:
- 626 0000 443A5C55 		.ascii	"D:\\Users\\jsing\\Desktop\\BLE Lab 4\\BLE Lab 4.cyd"
- 626      73657273 
- 626      5C6A7369 
- 626      6E675C44 
- 626      65736B74 
- 627 002e 736E00   		.ascii	"sn\000"
- 628              	.LASF15:
- 629 0031 72656733 		.ascii	"reg32\000"
- 629      3200
- 630              	.LASF21:
- 631 0037 6D61736B 		.ascii	"maskVal\000"
- 631      56616C00 
- 632              	.LASF28:
- 633 003f 43617053 		.ascii	"CapSense_SampleClk_Stop\000"
- 633      656E7365 
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 16
+ 625              	.LASF15:
+ 626 0000 72656733 		.ascii	"reg32\000"
+ 626      3200
+ 627              	.LASF21:
+ 628 0006 6D61736B 		.ascii	"maskVal\000"
+ 628      56616C00 
+ 629              	.LASF28:
+ 630 000e 43617053 		.ascii	"CapSense_SampleClk_Stop\000"
+ 630      656E7365 
+ 630      5F53616D 
+ 630      706C6543 
+ 630      6C6B5F53 
+ 631              	.LASF16:
+ 632 0026 43617053 		.ascii	"CapSense_SampleClk_StartEx\000"
+ 632      656E7365 
+ 632      5F53616D 
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 16
 
 
- 633      5F53616D 
- 633      706C6543 
- 633      6C6B5F53 
- 634              	.LASF16:
- 635 0057 43617053 		.ascii	"CapSense_SampleClk_StartEx\000"
- 635      656E7365 
- 635      5F53616D 
- 635      706C6543 
- 635      6C6B5F53 
- 636              	.LASF12:
- 637 0072 666C6F61 		.ascii	"float\000"
- 637      7400
- 638              	.LASF17:
- 639 0078 43617053 		.ascii	"CapSense_SampleClk_SetFractionalDividerRegister\000"
- 639      656E7365 
- 639      5F53616D 
- 639      706C6543 
- 639      6C6B5F53 
- 640              	.LASF7:
- 641 00a8 6C6F6E67 		.ascii	"long long unsigned int\000"
- 641      206C6F6E 
- 641      6720756E 
- 641      7369676E 
- 641      65642069 
- 642              	.LASF1:
- 643 00bf 756E7369 		.ascii	"unsigned char\000"
- 643      676E6564 
- 643      20636861 
- 643      7200
- 644              	.LASF5:
- 645 00cd 6C6F6E67 		.ascii	"long unsigned int\000"
- 645      20756E73 
- 645      69676E65 
- 645      6420696E 
- 645      7400
- 646              	.LASF3:
- 647 00df 73686F72 		.ascii	"short unsigned int\000"
- 647      7420756E 
- 647      7369676E 
- 647      65642069 
- 647      6E7400
- 648              	.LASF19:
- 649 00f2 636C6B44 		.ascii	"clkDivider\000"
- 649      69766964 
- 649      657200
- 650              	.LASF13:
- 651 00fd 646F7562 		.ascii	"double\000"
- 651      6C6500
- 652              	.LASF22:
- 653 0104 72656756 		.ascii	"regVal\000"
- 653      616C00
- 654              	.LASF18:
- 655 010b 616C6967 		.ascii	"alignClkDiv\000"
- 655      6E436C6B 
- 655      44697600 
- 656              	.LASF20:
- 657 0117 636C6B46 		.ascii	"clkFractional\000"
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 17
+ 632      706C6543 
+ 632      6C6B5F53 
+ 633              	.LASF12:
+ 634 0041 666C6F61 		.ascii	"float\000"
+ 634      7400
+ 635              	.LASF17:
+ 636 0047 43617053 		.ascii	"CapSense_SampleClk_SetFractionalDividerRegister\000"
+ 636      656E7365 
+ 636      5F53616D 
+ 636      706C6543 
+ 636      6C6B5F53 
+ 637              	.LASF7:
+ 638 0077 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 638      206C6F6E 
+ 638      6720756E 
+ 638      7369676E 
+ 638      65642069 
+ 639              	.LASF1:
+ 640 008e 756E7369 		.ascii	"unsigned char\000"
+ 640      676E6564 
+ 640      20636861 
+ 640      7200
+ 641              	.LASF5:
+ 642 009c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 642      20756E73 
+ 642      69676E65 
+ 642      6420696E 
+ 642      7400
+ 643              	.LASF3:
+ 644 00ae 73686F72 		.ascii	"short unsigned int\000"
+ 644      7420756E 
+ 644      7369676E 
+ 644      65642069 
+ 644      6E7400
+ 645              	.LASF19:
+ 646 00c1 636C6B44 		.ascii	"clkDivider\000"
+ 646      69766964 
+ 646      657200
+ 647              	.LASF13:
+ 648 00cc 646F7562 		.ascii	"double\000"
+ 648      6C6500
+ 649              	.LASF22:
+ 650 00d3 72656756 		.ascii	"regVal\000"
+ 650      616C00
+ 651              	.LASF18:
+ 652 00da 616C6967 		.ascii	"alignClkDiv\000"
+ 652      6E436C6B 
+ 652      44697600 
+ 653              	.LASF20:
+ 654 00e6 636C6B46 		.ascii	"clkFractional\000"
+ 654      72616374 
+ 654      696F6E61 
+ 654      6C00
+ 655              	.LASF10:
+ 656 00f4 75696E74 		.ascii	"uint16\000"
+ 656      313600
+ 657              	.LASF26:
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 17
 
 
- 657      72616374 
- 657      696F6E61 
- 657      6C00
- 658              	.LASF10:
- 659 0125 75696E74 		.ascii	"uint16\000"
- 659      313600
- 660              	.LASF26:
- 661 012c 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\CapSense_SampleClk.c\000"
- 661      6E657261 
- 661      7465645F 
- 661      536F7572 
- 661      63655C50 
- 662              	.LASF11:
- 663 015a 75696E74 		.ascii	"uint32\000"
- 663      333200
- 664              	.LASF8:
- 665 0161 756E7369 		.ascii	"unsigned int\000"
- 665      676E6564 
- 665      20696E74 
- 665      00
- 666              	.LASF25:
- 667 016e 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
- 667      4320342E 
- 667      382E3420 
- 667      32303134 
- 667      30353236 
- 668 01a1 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
- 668      20726576 
- 668      6973696F 
- 668      6E203231 
- 668      31333538 
- 669 01d4 30202D66 		.ascii	"0 -ffunction-sections\000"
- 669      66756E63 
- 669      74696F6E 
- 669      2D736563 
- 669      74696F6E 
- 670              	.LASF23:
- 671 01ea 43617053 		.ascii	"CapSense_SampleClk_GetDividerRegister\000"
- 671      656E7365 
- 671      5F53616D 
- 671      706C6543 
- 671      6C6B5F47 
- 672              	.LASF6:
- 673 0210 6C6F6E67 		.ascii	"long long int\000"
- 673      206C6F6E 
- 673      6720696E 
- 673      7400
- 674              	.LASF14:
- 675 021e 63686172 		.ascii	"char\000"
- 675      00
+ 658 00fb 2E5C4765 		.ascii	".\\Generated_Source\\PSoC4\\CapSense_SampleClk.c\000"
+ 658      6E657261 
+ 658      7465645F 
+ 658      536F7572 
+ 658      63655C50 
+ 659              	.LASF11:
+ 660 0129 75696E74 		.ascii	"uint32\000"
+ 660      333200
+ 661              	.LASF8:
+ 662 0130 756E7369 		.ascii	"unsigned int\000"
+ 662      676E6564 
+ 662      20696E74 
+ 662      00
+ 663              	.LASF25:
+ 664 013d 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 664      4320342E 
+ 664      382E3420 
+ 664      32303134 
+ 664      30353236 
+ 665 0170 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m0 -mthumb -g -O"
+ 665      20726576 
+ 665      6973696F 
+ 665      6E203231 
+ 665      31333538 
+ 666 01a3 30202D66 		.ascii	"0 -ffunction-sections\000"
+ 666      66756E63 
+ 666      74696F6E 
+ 666      2D736563 
+ 666      74696F6E 
+ 667              	.LASF23:
+ 668 01b9 43617053 		.ascii	"CapSense_SampleClk_GetDividerRegister\000"
+ 668      656E7365 
+ 668      5F53616D 
+ 668      706C6543 
+ 668      6C6B5F47 
+ 669              	.LASF6:
+ 670 01df 6C6F6E67 		.ascii	"long long int\000"
+ 670      206C6F6E 
+ 670      6720696E 
+ 670      7400
+ 671              	.LASF14:
+ 672 01ed 63686172 		.ascii	"char\000"
+ 672      00
+ 673              	.LASF27:
+ 674 01f2 443A5C55 		.ascii	"D:\\Users\\jsing\\Desktop\\BLE Lab 4\\Lab 4 Additio"
+ 674      73657273 
+ 674      5C6A7369 
+ 674      6E675C44 
+ 674      65736B74 
+ 675 0220 6E616C20 		.ascii	"nal 1\\BLE Lab 4.cydsn\000"
+ 675      315C424C 
+ 675      45204C61 
+ 675      6220342E 
+ 675      63796473 
  676              	.LASF2:
- 677 0223 73686F72 		.ascii	"short int\000"
+ 677 0236 73686F72 		.ascii	"short int\000"
  677      7420696E 
+ARM GAS  C:\Users\jsing\AppData\Local\Temp\ccIah5Bi.s 			page 18
+
+
  677      7400
  678              	.LASF9:
- 679 022d 75696E74 		.ascii	"uint8\000"
+ 679 0240 75696E74 		.ascii	"uint8\000"
  679      3800
-ARM GAS  C:\Users\jsing\AppData\Local\Temp\cc6J4tbQ.s 			page 18
-
-
  680              	.LASF4:
- 681 0233 6C6F6E67 		.ascii	"long int\000"
+ 681 0246 6C6F6E67 		.ascii	"long int\000"
  681      20696E74 
  681      00
  682              	.LASF0:
- 683 023c 7369676E 		.ascii	"signed char\000"
+ 683 024f 7369676E 		.ascii	"signed char\000"
  683      65642063 
  683      68617200 
  684              	.LASF24:
- 685 0248 43617053 		.ascii	"CapSense_SampleClk_GetFractionalDividerRegister\000"
+ 685 025b 43617053 		.ascii	"CapSense_SampleClk_GetFractionalDividerRegister\000"
  685      656E7365 
  685      5F53616D 
  685      706C6543 

@@ -73,7 +73,6 @@ static void HandleCapSenseSlider(void);
 *******************************************************************************/
 int main()
 {
-    CapSense_EnableWidget(CapSense_Sns_ProximitySensor0_0__PROX);
 
 	/* This function will initialize the system resources such as BLE and CapSense */
     InitializeSystem();
@@ -121,7 +120,10 @@ void InitializeSystem(void)
 {
 	/* Enable global interrupt mask */
 	CyGlobalIntEnable; 
-		
+   
+    /*enable the proximity sensor*/
+    CapSense_EnableWidget(CapSense_Sns_ProximitySensor0_0__PROX);
+
 	/* Start BLE component and register the CustomEventHandler function. This 
 	 * function exposes the events from BLE component for application use */
     CyBle_Start(CustomEventHandler);	
@@ -182,8 +184,8 @@ void HandleCapSenseSlider(void)
 	sliderPosition = CapSense_GetDiffCountData(CapSense_Sns_ProximitySensor0_0__PROX);	
 
 	/*If finger is detected on the slider*/
-	if((sliderPosition != NO_FINGER) && (sliderPosition <= SLIDER_MAX_VALUE))
-	{
+	//if((sliderPosition != NO_FINGER) && (sliderPosition <= SLIDER_MAX_VALUE))
+	//{
         /* If finger position on the slider is changed then send data as BLE 
          * notifications */
         if(sliderPosition != lastPosition)
@@ -194,7 +196,7 @@ void HandleCapSenseSlider(void)
 			SendCapSenseNotification((uint8)sliderPosition);
 
 		}	
-	}	
+	//}	
 }
 
 /* [] END OF FILE */

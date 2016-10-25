@@ -1,5 +1,5 @@
--- Project:   D:\Users\jsing\Desktop\BLE Lab 4\BLE Lab 4.cydsn\BLE Lab 4.cyprj
--- Generated: 10/18/2016 10:08:37
+-- Project:   D:\Users\jsing\Desktop\BLE Lab 4\Lab 4 Additional 1\BLE Lab 4.cydsn\BLE Lab 4.cyprj
+-- Generated: 10/25/2016 09:38:23
 -- PSoC Creator  3.1 SP3
 
 ENTITY \BLE Lab 4\ IS
@@ -114,7 +114,7 @@ ARCHITECTURE __DEFAULT__ OF \BLE Lab 4\ IS
     ATTRIBUTE Location OF \CapSense:IDAC2:cy_psoc4_idac\ : LABEL IS "F(CSIDAC7,0)";
     ATTRIBUTE Location OF \CapSense:ISR\ : LABEL IS "[IntrHod=(0)][IntrId=(16)]";
     ATTRIBUTE lib_model OF \CapSense:Sns(0)\ : LABEL IS "iocell5";
-    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[1]";
+    ATTRIBUTE Location OF \CapSense:Sns(0)\ : LABEL IS "P2[0]";
     ATTRIBUTE lib_model OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "controlcell1";
     ATTRIBUTE Location OF \PRS_1:SyncCtl:ControlReg\ : LABEL IS "U(1,0)";
     ATTRIBUTE lib_model OF \PRS_1:enable_final_reg\ : LABEL IS "macrocell4";
