@@ -76,7 +76,8 @@ int main()
 
 	/* This function will initialize the system resources such as BLE and CapSense */
     InitializeSystem();
-	
+    CapSense_EnableWidget(CapSense_PROXIMITYSENSOR0__PROX);
+
     for(;;)
     {
         /*Process event callback to handle BLE events. The events generated and 
@@ -93,11 +94,11 @@ int main()
 			UpdateNotificationCCCD();
 			
 			/* Send CapSense Slider data when respective notification is enabled */
-			if(TRUE == sendCapSenseSliderNotifications)
-			{
+			//if(TRUE == sendCapSenseSliderNotifications)
+			//{
 				/* Check for CapSense slider swipe and send data accordingly */
 				HandleCapSenseSlider();
-			}
+			//}
 		}
     }	
 }
@@ -122,7 +123,6 @@ void InitializeSystem(void)
 	CyGlobalIntEnable; 
    
     /*enable the proximity sensor*/
-    CapSense_EnableWidget(CapSense_Sns_ProximitySensor0_0__PROX);
 
 	/* Start BLE component and register the CustomEventHandler function. This 
 	 * function exposes the events from BLE component for application use */
@@ -165,11 +165,12 @@ void InitializeSystem(void)
 *******************************************************************************/
 void HandleCapSenseSlider(void)
 {
+
 	/* Last read CapSense slider position value */
-	static uint16 lastPosition;	
+	//static uint16 lastPosition;	
 	
 	/* Present slider position read by CapSense */
-	uint16 sliderPosition;
+	uint8 sliderPosition;
 		
 	/* Update CapSense baseline for next reading*/
 	CapSense_UpdateEnabledBaselines();	
@@ -181,21 +182,24 @@ void HandleCapSenseSlider(void)
 	while(CapSense_IsBusy());
 	
 	/* Read the finger position on the slider */
-	sliderPosition = CapSense_GetDiffCountData(CapSense_Sns_ProximitySensor0_0__PROX);	
+	sliderPosition = CapSense_GetDiffCountData(CapSense_PROXIMITYSENSOR0__PROX);	
+    
+    CapSense_CheckIsWidgetActive(CapSense_PROXIMITYSENSOR0__PROX);
+	SendCapSenseNotification((uint8)sliderPosition);
 
 	/*If finger is detected on the slider*/
 	//if((sliderPosition != NO_FINGER) && (sliderPosition <= SLIDER_MAX_VALUE))
 	//{
         /* If finger position on the slider is changed then send data as BLE 
          * notifications */
-        if(sliderPosition != lastPosition)
-		{
+       // if(sliderPosition != lastPosition)
+		//{
 			/* Update global variable with present finger position on slider*/
-			lastPosition = sliderPosition;
+		//	lastPosition = sliderPosition;
 
-			SendCapSenseNotification((uint8)sliderPosition);
+		//	SendCapSenseNotification((uint8)sliderPosition);
 
-		}	
+		//}	
 	//}	
 }
 

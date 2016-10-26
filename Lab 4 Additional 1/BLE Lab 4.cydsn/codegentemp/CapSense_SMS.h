@@ -36,7 +36,7 @@
 #define CapSense_SENSITIVITY_DIVIDER    (10u)
 
 #define CapSense_SENSITIVITY_MASK        	(0x0Fu)
-#define CapSense_FLEXIBLE_THRESHOLDS_EN  	(0u)
+#define CapSense_FLEXIBLE_THRESHOLDS_EN  	(1u)
 #define CapSense_CAL_RAW_COUNT           	(3482u)
 
 #define CapSense_THRESHOLD_1                (220u)
